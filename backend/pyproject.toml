@@ -1,0 +1,13 @@
+[project]
+name = "cartelera-backend"
+version = "0.1.0"
+description = "Cartelera Scraper API - La Nacion"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.1",
+    "httpx>=0.28.0",
+    "selectolax>=0.3.21",
+]
+
+[tool.setuptools]
+py-modules = ["main"]
