@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://cartelera-backend-2s8y.onrender.com/api/:path*"
+      "destination": "https://cartelera-backend-2s8y.onrender.com/:path*"
     }
   ]
 }
